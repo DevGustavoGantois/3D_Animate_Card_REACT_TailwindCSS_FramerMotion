@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 20px;
+  background: #2d2b2c;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 8px;
+  border-radius: 20px;
+  background: #2d2b2c;
+}
+
+@layer base {
+
+  {
+    @apply text-[#2d2b2c];
+  }
+}
